@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="css/skills.css">
     <link rel="stylesheet" href="css/projects.css">
     <link rel="stylesheet" href="css/tools.css">
+    <link rel="stylesheet" href="css/qualities.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
     <title>Portfólio Max</title>
 </head>
 <body>
@@ -28,6 +31,9 @@
     </nav>
     <main>
         <section id="about">
+            <div class="menu__reponsive">
+                 <a href="#"><i class="fas fa-bars"></i> </a>  
+            </div>
             <div class="about">
                 <div class="content__about">
                     <div class="text__stroke___one">
@@ -78,7 +84,7 @@
             </div>
         </section>
         <section id="skills">
-            <h1>My Skills</h1>
+            <h1>Skills</h1>
             <div class="container__skills">
                 <div class="skills__line1">
                     <div class="skills__card___black">
@@ -86,7 +92,7 @@
                             <img src="css/assets/images/icon__html.svg" alt="">
                         </div>
                         <div class="description__skill___black">
-                            <p>HTML5 is a programming language whose acronym stands for Hyper Text Markup Language. It is a system that allows the modification of the appearance of web pages, as well as making adjustments to their appearance. It also used to structure and present content for the web.</p>
+                            <p>A Linguagem de Marcação de Hipertexto (HTML) é uma linguagem de computador que compõe a maior parte das páginas da internet e dos aplicativos online.</p>
                         </div>
                     </div>
                     <div class="skills__card___yellow">
@@ -94,7 +100,7 @@
                             <img src="css/assets/images/icon__css.svg" alt="">
                         </div>
                         <div class="description__skill___yellow">
-                            <p>HTML5 is a programming language whose acronym stands for Hyper Text Markup Language. It is a system that allows the modification of the appearance of web pages, as well as making adjustments to their appearance. It also used to structure and present content for the web.</p>
+                            <p>O CSS tem a tarefa de separar o conteúdo do site de sua apresentação visual, alterando elementos como cor do texto, fonte e espaçamento entre blocos, assim como todo o aspecto estético de uma página.</p>
                         </div>
                     </div>
                    
@@ -105,7 +111,7 @@
                             <img src="css/assets/images/icon__javascript.svg" alt="">
                         </div>
                         <div class="description__skill___black">
-                            <p>HTML5 is a programming language whose acronym stands for Hyper Text Markup Language. It is a system that allows the modification of the appearance of web pages, as well as making adjustments to their appearance. It also used to structure and present content for the web.</p>
+                            <p>O JavaScript (JS) é uma linguagem de programação utilizada principalmente em páginas web. Com o JS, você pode mostrar mensagens e outras informações interessantes, fazer verificações ou mudar dinamicamente a apresentação visual das páginas, conforme o comportamento que você deseja que sua página (ou aplicação) possua.</p>
                         </div>
                     </div>
                     
@@ -114,7 +120,7 @@
                             <img src="css/assets/images/icon__react.svg" alt="">
                         </div>
                         <div class="description__skill___yellow">
-                            <p>HTML5 is a programming language whose acronym stands for Hyper Text Markup Language. It is a system that allows the modification of the appearance of web pages, as well as making adjustments to their appearance. It also used to structure and present content for the web.</p>
+                            <p>O React é uma biblioteca criada para construir telas de forma declarativa. Ou seja: o React cria aplicações web para serem executadas em navegadores, sejam eles para desktop, mobile ou qualquer outro dispositivo.</p>
                         </div>
                     </div>
                 </div>
@@ -124,7 +130,7 @@
                             <img src="css/assets/images/icon__wordpress.svg" alt="">
                         </div>
                         <div class="description__skill___black">
-                            <p>HTML5 is a programming language whose acronym stands for Hyper Text Markup Language. It is a system that allows the modification of the appearance of web pages, as well as making adjustments to their appearance. It also used to structure and present content for the web.</p>
+                            <p>O WordPress é uma plataforma bastante utilizada na produção de conteúdo. Sendo uma das principais ferramentas para a criação de sites e blogs, ela é considerada como o sistema de gerador de conteúdo (CMS) mais popular que existe.</p>
                         </div>
                     </div>
                     <div class="skills__card___yellow">
@@ -132,7 +138,7 @@
                             <img src="css/assets/images/icon__ux.svg" alt="">
                         </div>
                         <div class="description__skill___yellow">
-                            <p>HTML5 is a programming language whose acronym stands for Hyper Text Markup Language. It is a system that allows the modification of the appearance of web pages, as well as making adjustments to their appearance. It also used to structure and present content for the web.</p>
+                            <p>UX Design (User Experience ou Experiência do Usuário) é uma área do design que visa proporcionar ao usuário de um site, aplicativo ou plataforma uma experiência agradável de uso daquela ferramenta. É o trabalho que garante que a pessoa tenha a melhor experiência de uso de um serviço ou na busca por um produto.</p>
                         </div>
                     </div>
                    
@@ -381,6 +387,35 @@
              
             </div>
         </section>
+        <section id="qualities">
+            <h1>Sobre mim</h1>
+            <div class="qualities">
+                <div class="container__qualities">
+                    <div class="img__qualities">
+                        <img src="css/assets/images/michael.gif" alt="">
+                    </div>
+                    <div class="text__qualities">
+                        <h3>Sou uma pessoa extremamente curiosa e auto-motivada com uma enorme paixão pelo design e o desenvolvimento web. Como autodidata, adoto uma abordagem muito positiva e descontraida em todos os aspectos da minha vida e carrego uma forte ética de trabalho comigo onde quer que eu vá.</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="container__contact">
+                <h1>Contact me!</h1>
+                <h3>Go ahead... Don't be shy</h3>
+                <label for="" >Name*</label>
+                <input type="text" placeholder="Name" name="" id="">
+                <label for="" >Email*</label>
+                <input type="email" placeholder="Email" name="" id="">
+                <label for="">Message:</label>
+                <textarea class="text__area" name="" id="" cols="30" rows="6"></textarea>
+                <button>Enviar mensagem</button>
+            </div>
+        </section>
+        <footer>
+            <p>Designed and developed with ❤ by Max Zampieri. © 2022</p>
+        </footer>
     </main>
     <script src="script.js"></script>
 </body>

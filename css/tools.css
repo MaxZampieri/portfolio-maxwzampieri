@@ -10,6 +10,7 @@
     color: var(--color--white);
     font-family: var(--font--bold);
     margin-bottom: 50px;
+    margin-left: 50px;
 }
 .container__cards {
     padding: 0;
@@ -71,10 +72,15 @@
 @media only screen and (max-width: 600px) {
     #tools {
         background: var(--color--black);
+        width: 100%;
+        overflow: visible;
     }
     
     #tools h1 {
         font-size: 3rem; 
+    }
+    .container__cards {
+        margin-bottom: 0;
     }
     .card__tools {
         width: 90%;
