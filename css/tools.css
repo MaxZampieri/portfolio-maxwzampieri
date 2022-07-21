@@ -17,6 +17,7 @@
     border-radius: 20px;
     margin-bottom: 100px;
     max-width: 1000px;
+    margin-left: 0px;
     display: grid;
     border: 7px solid #FED43A;
     background-color: var(--color--black);
@@ -81,9 +82,11 @@
     }
     .container__cards {
         margin-bottom: 0;
+        margin-left: 0;
     }
     .card__tools {
         width: 90%;
+        
     }
     
 }
