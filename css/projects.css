@@ -93,12 +93,11 @@
     width: 300px;
     height: 300px;
     margin-right: 150px;
+    
 }
 .img1 img {
     width: 350px;
-   
-    
-   
+
 }
 
 .video {
@@ -113,24 +112,15 @@
     width: 300px;
     height: 300px;
     margin-right: 150px;
-    
+    margin-bottom: 100px;
     
 }
 .img2 img {
     width: 350px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.603);
     
     
 }
-.image__two___project img {
-    width: 400px;
-    margin-top: 50px;
-    border-radius: 10px;
-    border: 2px solid var(--color--white);
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.473);
-    
-   
-}
+
 #calc__title___responsive {
     display: none;
 }

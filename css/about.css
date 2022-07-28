@@ -102,7 +102,7 @@
     
 }
 .face--front {
-    background: var(--color--yellow); 
+    background-color: var(--color--card); 
     font-size: 3rem;
     z-index: 1;
     display: flex;
@@ -111,7 +111,7 @@
     color: var(--color--black)
 }
 .face--back {
-    background: var(--color--yellow);
+    background-color: var(--color--card);
     font-size: 1.2rem;
     transform: rotateX(90deg); 
     display: flex;
@@ -127,7 +127,7 @@
 .card:hover .face--back {
     transform: rotateX(0deg);
     z-index: 1;
-    background: url("assets/images/ralph-the-simpsons.gif")center / cover no-repeat;  
+    background-color: var(--color--card); 
 }
 
 
