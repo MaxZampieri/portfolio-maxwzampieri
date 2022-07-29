@@ -22,6 +22,7 @@
     border: 7px solid #FED43A;
     background-color: var(--color--black);
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.603);
     
    
     
