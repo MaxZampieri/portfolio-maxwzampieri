@@ -82,6 +82,8 @@
     border-radius: 0.8rem;
     transform-style: preserve-3d;
     cursor: pointer;
+    background-color: var(--color--yellow);
+    border: none;
     
    
 }
@@ -102,6 +104,7 @@
     background-size: cover;
     background-position: center center;
     transition: transform 0.5s ease-in-out;
+    background-color: var(--color--card);
     
 }
 .face--front {
@@ -127,7 +130,7 @@
     filter: invert(100%) sepia(48%) saturate(0%) hue-rotate(187deg) brightness(114%) contrast(100%);
 }
 .card:hover .face--front {
-    transform: rotateX(-90deg);
+    transform: rotateX(-180deg);
    
 }
 .card:hover .face--back {
