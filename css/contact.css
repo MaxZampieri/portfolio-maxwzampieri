@@ -8,9 +8,19 @@
     border-top: 1px solid var(--color--black);
 }
 .container__contact {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
+}
+.container__contact___center {
+    width: 60%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font--regular);
+}
+.container__contact___center h1, h3 {
+    text-align: center;
 }
 .container__contact label {
     font-size: 1rem;
@@ -58,9 +68,8 @@ button:hover {
 }
 /*==========Responsive=============*/
 @media only screen and (max-width: 600px) {
-    .container__contact {
+    .container__contact___center {
         width: 90%;
-       
     }
     .container__contact label {
         font-size: 1rem;
